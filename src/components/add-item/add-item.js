@@ -17,7 +17,7 @@ export default class AddItem extends Component {
   onSubmit = e => {
     e.preventDefault();
     this.props.ItemAdd(this.state.label);
-    this.setState({label:''})
+    this.setState({ label: '' });
   };
   render() {
     return (
