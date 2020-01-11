@@ -1,3 +1,8 @@
 .add-item{
     margin-top: 18px;
 }
+
+.add-item input{
+    margin-right: 7px;
+    width: 304px;
+}
